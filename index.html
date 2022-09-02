@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage | Suzan Rana</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+
+<!-- brightRed: 'hsl(12, 88%, 59%)',
+        brightRedLight: 'hsl(12, 88%, 69%)',
+         : 'hsl(12, 88%, 95%)',
+        darkBlue: 'hsl(228, 39%, 23%)',
+        darkGrayishBlue: 'hsl(227, 12%, 61%)',
+        veryDarkBlue: 'hsl(233, 12%, 13%)',
+        veryPaleRed: 'hsl(13, 100%, 96%)',
+        veryLightGray: 'hsl(0, 0%, 98%)', -->
+
+
+<body>
+    <header>
+        <!-- container -->
+        <div class="mx-auto w-[90%] py-6">
+            <!-- flex-container -->
+            <div class="flex flex-row items-center justify-between">
+                <div class="logo cursor-pointer">
+                    <img src="./img/logo.svg" class="block max-w-[100%]" alt="Manage logo">
+                </div>
+                <div id="menu" class="block md:hidden">
+                    <div class="w-14 h-1 cursor-pointer bg-black rounded"></div>
+                    <div class="w-14 h-1 cursor-pointer bg-black mt-2 rounded"></div>
+                </div>
+                <div id="menu-links" class="hidden md:flex md:flex-row space-x-8">
+                    <a href="#">Pricing</a>
+                    <a href="#">Product</a>
+                    <a href="#">About us</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Community</a>
+                </div>
+                <a href="#" class="hidden cursor-pointer px-6 text-center py-3 rounded-[50px] bg-brightRed text-white hover:bg-brightRedLight md:flex">Get Started</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="hero-section" class="mx-auto w-[90%] md:mt-24 md:my-32">
+        <!-- flex-container -->
+        <div class="flex flex-col-reverse space-y-8 md:flex-row md:justify-around md:space-y-0" >
+            <div class="text-center max-w-md md:text-left">
+                <h1 class="font-bold text-3xl md:text-5xl md:leading-tight">Bring everyone together to build better products</h1>
+                <p class="mb-12 w-[90%] mt-8">Manage makes it simple for software teams to plan day-to-day tasks while
+                    keeping the larger team goals in view.</p>
+                <a href="#" class="block w-40 mx-auto px-8 py-4 rounded-[50px] bg-brightRed text-white hover:bg-brightRedLight md:mx-0">Get Started</a>
+            </div>
+
+            <div id="image-container">
+                <img src="./img/illustration-intro.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- manage-section -->
+    <section id="manage-section" class="mx-auto my-20 w-[90%] md:my-32">
+        <!-- flex-container -->
+        <div class="flex flex-col space-y-8 md:flex-row md:space-y-0 md:space-x-12 md:justify-around">
+            <div class="text-center md:text-left max-w-md">
+                <h1 class="text-3xl font-semibold mb-8 md:text-4xl">What's different about Manage?</h1>
+                <p>Manage provides all the functionality your team needs, without the complexity. Our software is
+                    tailor-made for modern digital product teams.</p>
+            </div>
+            <div class="flex flex-col space-y-8 md:w-[50%]">
+                <div>
+                    <!-- numbered-list -->
+                    <div class="flex flex-row space-x-4 rounded-3xl bg-brightRedSupLight  items-center md:bg-transparent">
+                        <div class="rounded-3xl py-2  bg-brightRedLight text-white px-4 text-lg">01</div>
+                        <div id="title" class="py-2 text-lg font-bold">Track company-wide progress</div>
+
+                    </div>
+                    <!-- paragraph -->
+                    <p class="text-sm mt-4">
+                        See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the
+                        milestone
+                        level all the way down to the smallest of details. Never lose sight of the bigger picture again.
+                    </p>
+                </div>
+                <div>
+                    <!-- numbered-list -->
+                    <div class="flex flex-row space-x-4 rounded-3xl bg-brightRedSupLight  items-center md:bg-transparent">
+                        <div class="rounded-3xl py-2  bg-brightRedLight text-white px-4 text-lg">02</div>
+                        <div id="title" class="py-2 text-lg font-bold">Advanced built-in reports</div>
+
+                    </div>
+                    <!-- paragraph -->
+                    <p class="text-sm mt-4">
+                        Set internal delivery estimates and track progress toward company goals. Our customisable
+                        dashboard helps you build out the reports you need to keep key stakeholders informed.
+                    </p>
+                </div>
+                <div>
+                    <!-- numbered-list -->
+                    <div class="flex flex-row space-x-4 rounded-3xl bg-brightRedSupLight  items-center md:bg-transparent">
+                        <div class="rounded-3xl py-2  bg-brightRedLight text-white px-4 text-lg">03</div>
+                        <div id="title" class="py-2 text-lg font-bold">Everything you need in one place</div>
+
+                    </div>
+                    <!-- paragraph -->
+                    <p class="text-sm mt-4">
+                        Stop jumping from one service to another to communicate, store files, track tasks and share
+                        documents. Manage offers an all-in-one team productivity solution.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- differen-manage  -->
+    <section id="different" class="mx-auto my-20 w-[90%] md:my-32">
+        <h1 class="text-3xl text-center font-semibold mb-20 md:text-4xl md:mb-24">What's different about Manage?</h1>
+
+
+        <div class="flex flex-col space-x-8 md:flex-row md:w-[90%] md:mx-auto">
+            <div class="flex flex-col px-6 py-6 text-center bg-veryLightGray">
+                <div class="image -mt-16 mx-auto w-[75px] h-[75px]">
+                    <img src="./img/avatar-anisha.png" class="block max-w-[100%]">
+                </div>
+                <h2 class="my-2 mt-6 font-bold">Anisha Li</h2>
+                <p class="my-2 text-sm">“Manage has supercharged our team’s workflow. The ability to maintain visibility
+                    on larger milestones at all times keeps everyone motivated.”</p>
+
+
+            </div>
+            <div class="hidden flex-col px-6 py-6 text-center bg-veryLightGray md:flex">
+                <div class="image -mt-16 mx-auto w-[75px] h-[75px]">
+                    <img src="./img/avatar-anisha.png" class="block max-w-[100%]">
+                </div>
+                <h2 class="my-2 mt-6 font-bold">Anisha Li</h2>
+                <p class="my-2 text-sm">“Manage has supercharged our team’s workflow. The ability to maintain visibility
+                    on larger milestones at all times keeps everyone motivated.”</p>
+
+
+            </div>
+            <div class="hidden flex-col px-6 py-6 text-center bg-veryLightGray md:flex">
+                <div class="image -mt-16 mx-auto w-[75px] h-[75px]">
+                    <img src="./img/avatar-anisha.png" class="block max-w-[100%]">
+                </div>
+                <h2 class="my-2 mt-6 font-bold">Anisha Li</h2>
+                <p class="my-2 text-sm">“Manage has supercharged our team’s workflow. The ability to maintain visibility
+                    on larger milestones at all times keeps everyone motivated.”</p>
+
+
+            </div>
+        </div>
+
+        <a href="#" class="block mx-auto cursor-pointer my-10 px-8 text-center py-4 rounded-[50px] bg-brightRed w-40 hover:bg-brightRedLight text-white">Get Started</a>
+    </section>
+
+    <section id="simply" class="bg-brightRed flex flex-col  mb-8 px-10 py-16 md:flex-row md:justify-between">
+        <h3 class="text-center max-w-md text-white text-5xl font-bold">Simplify how your team works today</h3>
+        <a href="#" class="block mx-auto cursor-pointer my-10 px-8 text-center py-4 rounded-[50px] bg-white w-40 text-brightRed md:mx-0">Get Started</a>
+    </section>
+</body>
+
+</html>
